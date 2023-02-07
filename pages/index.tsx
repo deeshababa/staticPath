@@ -45,7 +45,7 @@ export default function Home() {
               );
             })}
           </ul>
-          <Link href={`users/aaaa`}>
+          <Link href={`users/a`}>
                     <a>User</a>
                   </Link>
                   {/* dfghjkl */}
