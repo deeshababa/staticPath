@@ -16,12 +16,12 @@ type Props = {
   data: User;
 }
 
-export default function User({ data }: Props) {
+export default function User() {
   const router=useRouter()
   const { id } = router.query
   return (
     <div>
-      <h3>Hi</h3>
+      <h3>Hi{id}</h3>
       {/* <img src={data?.avatar_url} alt="Avatar Github" width={200}/>
       <h1>{data?.name}</h1>
       <h2>{data?.bio}</h2>

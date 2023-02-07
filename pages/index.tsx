@@ -48,6 +48,9 @@ export default function Home() {
           <Link href={`users/`}>
                     <a>User</a>
                   </Link>
+                  <Link href={`users/1`}>
+                    <a>User Id</a>
+                  </Link>
                   {/* dfghjkl */}
         </section>
       </div>
