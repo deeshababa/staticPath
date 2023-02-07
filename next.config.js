@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     trailingSlash:true,
-    basePath:'/staticPath'
+    basePath:'/static'
   }
   
   module.exports = nextConfig
