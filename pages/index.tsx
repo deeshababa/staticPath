@@ -45,6 +45,9 @@ export default function Home() {
               );
             })}
           </ul>
+          <Link href={`users/aaaa`}>
+                    <a>User</a>
+                  </Link>
         </section>
       </div>
     </>
